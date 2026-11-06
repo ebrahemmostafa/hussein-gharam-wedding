@@ -21124,18 +21124,16 @@ con vosotros...`
             es: "Outlook / Otro"
         },
         eventWhere: {
-            en: "KATB EL KETAB · كتب الكتاب",
-            es: "KATB EL KETAB · كتب الكتاب"
+            en: "KATB EL KETAB",
+            es: "KATB EL KETAB"
         },
         venueName: {
             en: "Suleiman Pasha Al-Khadem Mosque",
             es: "Suleiman Pasha Al-Khadem Mosque"
         },
         venueAddress: {
-            en: `The Citadel, Cairo
-مسجد سليمان باشا الخادم · القلعة`,
-            es: `The Citadel, Cairo
-مسجد سليمان باشا الخادم · القلعة`
+            en: "The Citadel, Cairo",
+            es: "The Citadel, Cairo"
         },
         openMap: {
             en: "Open location",
