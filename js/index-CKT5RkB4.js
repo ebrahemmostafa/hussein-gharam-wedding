@@ -21265,7 +21265,7 @@ function mL({
                 },
                 className: "md:text-[13px] tracking-[0.35em] uppercase font-display mb-3 text-granate/90 text-[13px] whitespace-pre-line",
                 children: t("weGettingMarried")
-            }), P.jsx(sn.h1, {
+            }), P.jsxs(sn.h1, {
                 initial: {
                     opacity: 0,
                     y: 8
@@ -21282,8 +21282,53 @@ function mL({
                     delay: s ? 2.2 : 0,
                     ease: [.22, 1, .36, 1]
                 },
-                className: "font-names mb-2 text-granate md:text-[3.3rem] text-[2.05rem]",
-                children: "Hussein & Gharam"
+                className: "flex items-center justify-center mt-2 mb-5",
+                role: "img",
+                "aria-label": "حسين و غرام",
+                style: {
+                    height: "min(30vw, 160px)",
+                    gap: "min(3vw, 18px)"
+                },
+                children: [P.jsx("span", {
+                    className: "bg-granate block",
+                    style: {
+                        height: "100%",
+                        aspectRatio: "714 / 784",
+                        WebkitMaskImage: "url(assets/images/name-gharam.png)",
+                        maskImage: "url(assets/images/name-gharam.png)",
+                        WebkitMaskSize: "contain",
+                        maskSize: "contain",
+                        WebkitMaskRepeat: "no-repeat",
+                        maskRepeat: "no-repeat",
+                        WebkitMaskPosition: "center",
+                        maskPosition: "center"
+                    }
+                }), P.jsx("span", {
+                    className: "font-names text-granate",
+                    "aria-hidden": "true",
+                    style: {
+                        opacity: .7,
+                        fontSize: "min(7vw, 40px)",
+                        lineHeight: 1,
+                        transform: "translateY(-6%)"
+                    },
+                    children: "&"
+                }), P.jsx("span", {
+                    className: "bg-granate block",
+                    style: {
+                        height: "100%",
+                        aspectRatio: "751 / 784",
+                        marginLeft: "calc(min(30vw, 160px) * -0.07)",
+                        WebkitMaskImage: "url(assets/images/name-hussein.png)",
+                        maskImage: "url(assets/images/name-hussein.png)",
+                        WebkitMaskSize: "contain",
+                        maskSize: "contain",
+                        WebkitMaskRepeat: "no-repeat",
+                        maskRepeat: "no-repeat",
+                        WebkitMaskPosition: "center",
+                        maskPosition: "center"
+                    }
+                })]
             }), P.jsx(sn.p, {
                 initial: {
                     opacity: 0,
