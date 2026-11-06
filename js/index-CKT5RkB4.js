@@ -21282,53 +21282,22 @@ function mL({
                     delay: s ? 2.2 : 0,
                     ease: [.22, 1, .36, 1]
                 },
-                className: "flex items-center justify-center mt-2 mb-5",
-                role: "img",
-                "aria-label": "حسين و غرام",
+                className: "mb-3 text-granate whitespace-nowrap",
                 style: {
-                    height: "min(30vw, 160px)",
-                    gap: "min(3vw, 18px)"
+                    fontFamily: "'Great Vibes', cursive",
+                    fontWeight: 400,
+                    fontSize: "min(10.5vw, 4.3rem)",
+                    lineHeight: 1.15,
+                    letterSpacing: "0.01em"
                 },
-                children: [P.jsx("span", {
-                    className: "bg-granate block",
+                children: ["Hussein", P.jsx("span", {
                     style: {
-                        height: "100%",
-                        aspectRatio: "714 / 784",
-                        WebkitMaskImage: "url(assets/images/name-gharam.png)",
-                        maskImage: "url(assets/images/name-gharam.png)",
-                        WebkitMaskSize: "contain",
-                        maskSize: "contain",
-                        WebkitMaskRepeat: "no-repeat",
-                        maskRepeat: "no-repeat",
-                        WebkitMaskPosition: "center",
-                        maskPosition: "center"
-                    }
-                }), P.jsx("span", {
-                    className: "font-names text-granate",
-                    "aria-hidden": "true",
-                    style: {
-                        opacity: .7,
-                        fontSize: "min(7vw, 40px)",
-                        lineHeight: 1,
-                        transform: "translateY(-6%)"
+                        fontSize: "0.82em",
+                        margin: "0 0.32em",
+                        opacity: .8
                     },
                     children: "&"
-                }), P.jsx("span", {
-                    className: "bg-granate block",
-                    style: {
-                        height: "100%",
-                        aspectRatio: "751 / 784",
-                        marginLeft: "calc(min(30vw, 160px) * -0.07)",
-                        WebkitMaskImage: "url(assets/images/name-hussein.png)",
-                        maskImage: "url(assets/images/name-hussein.png)",
-                        WebkitMaskSize: "contain",
-                        maskSize: "contain",
-                        WebkitMaskRepeat: "no-repeat",
-                        maskRepeat: "no-repeat",
-                        WebkitMaskPosition: "center",
-                        maskPosition: "center"
-                    }
-                })]
+                }), "Gharam"]
             }), P.jsx(sn.p, {
                 initial: {
                     opacity: 0,
